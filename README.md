@@ -1,4 +1,4 @@
-# Flowerless_Spiritfarer
+# Flowerless Spiritfarer
 A modified Spiritfarer dll that removes spirit flowers requirements from recipes
 
 # Install
@@ -11,3 +11,5 @@ Place the orignal dll file (**_You did create a backup, right?_**) to `Spiritfar
 
 If you do not have a backup, then download original dll file from [here](https://github.com/takennot/Flowerless_Spiritfarer/raw/main/Assembly-CSharp_clean.dll).
 Don't forget to rename it to `Assembly-CSharp.dll`!
+
+If the method did not work for whatever reason - go to steam library, right click on the game, properties --> local files --> Verify integrity
