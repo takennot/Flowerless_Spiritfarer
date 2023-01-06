@@ -13,3 +13,18 @@ If you do not have a backup, then download original dll file from [here](https:/
 Don't forget to rename it to `Assembly-CSharp.dll`!
 
 If the method did not work for whatever reason - go to steam library, right click on the game, properties --> local files --> Verify integrity
+
+# How
+Just changed `false` to `true` in the `MeetInventoryRequirement` method (`Assembly_CSharp.dll --> MainInventory --> MeetInventoryRequirement`).
+
+From:
+`if (base.CountItemOfType(GameUtil.MainInventory._spiritFlowerProperty) < itemStack.Quantity)
+			{
+				return false;
+			}`
+
+To:
+`if (base.CountItemOfType(GameUtil.MainInventory._spiritFlowerProperty) < itemStack.Quantity)
+			{
+				return true;
+			}`
