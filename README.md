@@ -1,5 +1,5 @@
 # Flowerless Spiritfarer
-A modified Spiritfarer .dll file that removes spirit flowers requirements from recipes.
+A patched Spiritfarer .dll file that removes spirit flowers requirements from recipes.
 
 # Install
 **_Don't forget to backup the original file before replacing!_**
